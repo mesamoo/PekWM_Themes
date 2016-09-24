@@ -29,7 +29,7 @@ hopefully others can easily modify and learn from these files.
 
 **The rest of this is pekwm specific:**
 -------------
-
+AutopropertiesDH... is  my commented example, will not be updated regularly, only for major changes
 
 AutoProperties:
 -------------
