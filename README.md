@@ -27,10 +27,6 @@ hopefully others can easily modify and learn from these files.
 (Use a monospace font when editing for easily viewed layout)
 
 
-**The rest of this is pekwm specific:**
--------------
-AutopropertiesDH... is  my commented example, will not be updated regularly, only for major changes
-
 AutoProperties:
 -------------
 
@@ -43,6 +39,8 @@ If the auto-properties file does not reference a specific decor in the theme, th
 
 > **Note:**
 to get most from my pekwm themes your autoproperties file should be modified
+
+AutopropertiesDH... is  my commented example, which will not be updated regularly, only for major changes (Such as adding new decor to theme)
 
 If you choose to use my autoproperties you should review the modified properties first, specifically:
 
