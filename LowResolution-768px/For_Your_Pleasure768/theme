@@ -657,7 +657,7 @@ Status {
 
 WorkspaceIndicator {
   Font = "$font"
-  Background = "Image back.png"
+  #Background = "Image back.png"
   Workspace = "Image workspace.png"
   WorkspaceActive = "Image workspace-sel.png"
   Text = "#d0d0d0"

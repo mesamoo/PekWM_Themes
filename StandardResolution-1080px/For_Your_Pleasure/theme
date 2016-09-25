@@ -21,7 +21,7 @@ PDecor {
 	Decor = "Default" {
 		Title {
 			Height = "28"
-                        Pad = "3 1 1 1"
+			Pad = "3 1 1 1"
 
 			Focused = "Image title-lt.png"
 			Unfocused = "Image title-lt.png"
@@ -254,83 +254,83 @@ PDecor {
                         Focused = "Image title-lt.png"
                         Unfocused = "Image title-lt.png"
 
-                        Tab {
-                                Focused = "Image title-lt2.png"
-                                FocusedSelected = "Image title-lt.png"
-                                Unfocused = "Image title-lt.png"
-                                UnfocusedSelected = "Image title-lt.png"
-                        }
+					Tab {
+						Focused = "Image title-lt2.png"
+						FocusedSelected = "Image title-lt.png"
+						Unfocused = "Image title-lt.png"
+						UnfocusedSelected = "Image title-lt.png"
+					}
 
-                        Separator {
-                                Focused = "Image F.Y.Pleasure-tab-separator.png"
-                                Unfocused = "Image F.Y.Pleasure-tab-separator_unfocus.png"
+					Separator {
+						Focused = "Image F.Y.Pleasure-tab-separator.png"
+						Unfocused = "Image F.Y.Pleasure-tab-separator_unfocus.png"
 
-                        }
+					}
 
-                        Font {
-                                Focused = "$FONT_TITLE"
-                        }
+					Font {
+						Focused = "$FONT_TITLE"
+					}
 
-                        FontColor {
-#                                Focused = "#95AF9E"
-                                Focused = "#16D4EC"
-                                FocusedSelected = "#EBFA60"                             
-                                Unfocused = "#16D4EC"
-                                UnfocusedSelected = "#16D4EC"
-                        }
+					FontColor {
+#                       Focused = "#95AF9E"
+						Focused = "#16D4EC"
+						FocusedSelected = "#EBFA60"                             
+						Unfocused = "#16D4EC"
+						UnfocusedSelected = "#16D4EC"
+					}
 
-                       Buttons {
-                          Right {
-                                Focused = "Image button-fr.png"
-                                Unfocused = "Image button-fr2.png"
-                                Hoover = "Image button-hover-green4.png"
-                                Pressed = "Image button-press-green4.png"
-                                Button = "1" { Actions = "Set Iconified" }
-                          }
+					Buttons {
+						Right {
+							Focused = "Image button-fr.png"
+							Unfocused = "Image button-fr2.png"
+							Hoover = "Image button-hover-green4.png"
+							Pressed = "Image button-press-green4.png"
+							Button = "1" { Actions = "Set Iconified" }
+						}
 
-                          Right {
-                                Focused = "Image button.png"
-                                Unfocused = "Image button.png"
-                                Hoover = "Image button-hover-teal4.png"
-                                Pressed = "Image button-press-teal4.png"
-                                Button = "1" { Actions = "Toggle Maximized 1 1" }
-                                Button = "3" { Actions = "Maxfill False True" }
-                          }
+						Right {
+							Focused = "Image button.png"
+							Unfocused = "Image button.png"
+							Hoover = "Image button-hover-teal4.png"
+							Pressed = "Image button-press-teal4.png"
+							Button = "1" { Actions = "Toggle Maximized 1 1" }
+							Button = "3" { Actions = "Maxfill False True" }
+						}
 
-                          Left {
-                                Focused = "Image button-stick-Invisible.png"
-                                Unfocused = "Image button-stick-Invisible.png"
-                                Hoover = "Image button-stick-hover3.png"
-                                Pressed = "Image button-stick-press3.png"
-                                Button = "1" { Actions = "Toggle Sticky" }
-                                Button = "3" { Actions = "Toggle Sticky" }
-                          }
+						Left {
+							Focused = "Image button-stick-Invisible.png"
+							Unfocused = "Image button-stick-Invisible.png"
+							Hoover = "Image button-stick-hover3.png"
+							Pressed = "Image button-stick-press3.png"
+							Button = "1" { Actions = "Toggle Sticky" }
+							Button = "3" { Actions = "Toggle Sticky" }
+						}
                 }
                 
-                        Border {
-                                Focused {
-                                        TopLeft = "Image top-left-active.png"
-                                        Top = "Image top-border-y.png"                                    
-                                        TopRight = "Image top-right-active.png"
-                                        Left =  "Image left-border.png"
-                                        Right = "Image right-border.png"
-                                        BottomLeft = "Image bottom-left.png"
-                                        Bottom = "Image bottom-border.png"
-                                        BottomRight = "Image bottom-right.png"
-                                }
+					Border {
+						Focused {
+                          TopLeft = "Image top-left-active.png"
+                          Top = "Image top-border-y.png"                                    
+                          TopRight = "Image top-right-active.png"
+                          Left =  "Image left-border.png"
+                          Right = "Image right-border.png"
+                          BottomLeft = "Image bottom-left.png"
+                          Bottom = "Image bottom-border.png"
+                          BottomRight = "Image bottom-right.png"
+						}
                                 
-                                Unfocused {
-                                        TopLeft = "Image top-left-inact.png"
-                                        Top = "Image top-border-blu.png"
-                                        TopRight = "Image top-right-inact.png"
-                                        Left =  "Image left-border-inact.png"
-                                        Right = "Image right-border-inact.png"
-                                        BottomLeft = "Image bottom-left-inact.png"
-                                        Bottom = "Image bottom-border-inact.png"
-                                        BottomRight = "Image bottom-right-inact.png"
-                                }
-                        }
-                } 
+					Unfocused {
+                         TopLeft = "Image top-left-inact.png"
+                         Top = "Image top-border-blu.png"
+                         TopRight = "Image top-right-inact.png"
+                         Left =  "Image left-border-inact.png"
+                         Right = "Image right-border-inact.png"
+                         BottomLeft = "Image bottom-left-inact.png"
+                         Bottom = "Image bottom-border-inact.png"
+                         BottomRight = "Image bottom-right-inact.png"
+					}
+				}
+			} 
  
         }
      
@@ -661,7 +661,7 @@ Status {
 
 WorkspaceIndicator {
   Font = "$font"
-  Background = "Image back.png"
+  #Background = "Image back.png"
   Workspace = "Image workspace.png"
   WorkspaceActive = "Image workspace-sel.png"
   Text = "#d0d0d0"
