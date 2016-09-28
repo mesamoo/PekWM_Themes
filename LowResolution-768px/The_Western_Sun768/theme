@@ -99,8 +99,8 @@ PDecor {
 					Bottom 			= "Image 5-Border-horz1.png"
 					BottomRight 	= "Image 5-Border-bottom-right.png"
 					}
-					
-				Unfocused {				
+
+				Unfocused {
 					Top 			= "Image 5-Border-horz-unFocused2.png"
 					TopRight 		= "Image 5-Border-top-right-unFocused2.png"
 					TopLeft 		= "Image 5-Border-top-left-unFocused2.png"
@@ -109,8 +109,8 @@ PDecor {
 					BottomLeft 		= "Image 5-Border-bottom-left-unFocused2.png"
 					Bottom 			= "Image 5-Border-horz-unFocused2.png"
 					BottomRight 	= "Image 5-Border-bottom-right-unFocused2.png"
-					}					
-					
+					}
+
 				}
 			}
 		}
@@ -124,11 +124,12 @@ PDecor {
 			Font {
 					Focused			= "$font_bigger"
 					}
-			
+
 			Border {
 				Focused {
 					TopLeft 		= "Image 3-Menu-default-top-left-Focus2.png"
 					Top 			= "Image 0-Menu-default-top-thickRainbow-Focus3.png#scaled"
+					#Top 			= "Image 0-Menu-default-top-thickRainbow-Focus3.png"
 					TopRight 		= "Image 3-Menu-default-top-right-Focus2.png"
 					Left 			= "Image 3-Menu-default-left-Focus.png"
 					Right 			= "Image 3-Menu-default-right-Focus.png"
@@ -136,10 +137,10 @@ PDecor {
 					Bottom 			= "Image 3-Menu-default-bottom-Focus.png"
 					BottomRight 	= "Image 3-Menu-default-bottom-right-Focus.png"
 					}
-				
+
 				Unfocused {
 					TopLeft 		= "Image 3-Menu-default-top-left-Focus2.png"
-					Top 			= "Image 0-Menu-default-top-Focus.png" 
+					Top 			= "Image 0-Menu-default-top-Focus.png"
 					TopRight 		= "Image 3-Menu-default-top-right-Focus2.png"
 					Left 			= "Image 3-Menu-default-left-Focus.png"
 					Right 			= "Image 3-Menu-default-right-Focus.png"
@@ -148,16 +149,16 @@ PDecor {
 					BottomRight 	= "Image 3-Menu-default-bottom-right-Focus.png"
 					}
 				}
-			}		
+			}
 		}
 
-# Decor = "noKlose" needs "noKlose" specified in autoproperties to do anything, 
+# Decor = "noKlose" needs "noKlose" specified in autoproperties to do anything,
 # otherwise does nothing Windows set to use "noKlose" decore
 # will have sticky, maximize and minimize buttons only (no close button)
-# close button location (far right) has a second minimize button  
+# close button location (far right) has a second minimize button
 # (2 minimize buttons, min-max-min)
 # to prevent accidental application quit of apps that won't (or improperly) close to tray
-	
+
 	Decor = "noKlose" {
 		Title {
 				Height 				= "19"
@@ -186,7 +187,7 @@ PDecor {
 
 			FontColor {
 					Focused 		= "#cccccc"
-					FocusedSelected = "#EBFA60"                             
+					FocusedSelected = "#EBFA60"
 					Unfocused 		= "#cccccc"
 					UnfocusedSelected = "#cccccc"
 					}
@@ -226,7 +227,7 @@ PDecor {
 					Button 			= "3" { Actions = "Toggle Sticky" }
 					}
 				}
-				
+
 			Border {
 				Focused {
 					Top 			= "Image 5-Border-horz1.png"
@@ -238,8 +239,8 @@ PDecor {
 					Bottom 			= "Image 5-Border-horz1.png"
 					BottomRight 	= "Image 5-Border-bottom-right.png"
 					}
-					
-				Unfocused {				
+
+				Unfocused {
 					Top 			= "Image 5-Border-horz-unFocused2.png"
 					TopRight 		= "Image 5-Border-top-right-unFocused2.png"
 					TopLeft 		= "Image 5-Border-top-left-unFocused2.png"
@@ -248,18 +249,18 @@ PDecor {
 					BottomLeft 		= "Image 5-Border-bottom-left-unFocused2.png"
 					Bottom 			= "Image 5-Border-horz-unFocused2.png"
 					BottomRight 	= "Image 5-Border-bottom-right-unFocused2.png"
-					}					
-					
+					}
+
 				}
 			}
 		}
 
-# Decor = "noKlose2" needs "noKlose2" specified in autoproperties to do anything, 
+# Decor = "noKlose2" needs "noKlose2" specified in autoproperties to do anything,
 # otherwise does nothing
 # Window set to have sticky, maximize and minimize buttons only (no close button)
-# (1 minimize button max and min reversed, max-min) 
+# (1 minimize button max and min reversed, max-min)
 # prevent accidental application quit
-			
+
 	Decor = "noKlose2" {
 		Title {
 				Height 				= "19"
@@ -288,7 +289,7 @@ PDecor {
 
 			FontColor {
 				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#EBFA60"
 				Unfocused 			= "#cccccc"
 				UnfocusedSelected 	= "#cccccc"
 				}
@@ -332,8 +333,8 @@ PDecor {
 					Bottom 			= "Image 5-Border-horz1.png"
 					BottomRight 	= "Image 5-Border-bottom-right.png"
 					}
-					
-				Unfocused {				
+
+				Unfocused {
 					Top 			= "Image 5-Border-horz-unFocused2.png"
 					TopRight 		= "Image 5-Border-top-right-unFocused2.png"
 					TopLeft 		= "Image 5-Border-top-left-unFocused2.png"
@@ -342,16 +343,16 @@ PDecor {
 					BottomLeft 		= "Image 5-Border-bottom-left-unFocused2.png"
 					Bottom 			= "Image 5-Border-horz-unFocused2.png"
 					BottomRight 	= "Image 5-Border-bottom-right-unFocused2.png"
-					}					
+					}
 				}
 			}
 		}
 
-# Decor = "noKlose3" needs "noKlose3" specified in autoproperties to do anything, 
+# Decor = "noKlose3" needs "noKlose3" specified in autoproperties to do anything,
 # otherwise does nothing
 # Window set to have sticky and minimize buttons only
 # prevent accidental application quit
-	
+
 	Decor = "noKlose3" {
 		Title {
 				Height 				= "19"
@@ -380,7 +381,7 @@ PDecor {
 
 			FontColor {
 				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#EBFA60"
 				Unfocused 			= "#cccccc"
 				UnfocusedSelected 	= "#cccccc"
 			}
@@ -415,8 +416,8 @@ PDecor {
 					Bottom 			= "Image 5-Border-horz1.png"
 					BottomRight 	= "Image 5-Border-bottom-right.png"
 					}
-					
-				Unfocused {				
+
+				Unfocused {
 					Top 			= "Image 5-Border-horz-unFocused2.png"
 					TopRight 		= "Image 5-Border-top-right-unFocused2.png"
 					TopLeft 		= "Image 5-Border-top-left-unFocused2.png"
@@ -425,16 +426,16 @@ PDecor {
 					BottomLeft 		= "Image 5-Border-bottom-left-unFocused2.png"
 					Bottom 			= "Image 5-Border-horz-unFocused2.png"
 					BottomRight 	= "Image 5-Border-bottom-right-unFocused2.png"
-					}					
-					
-				}		
+					}
+
+				}
 			}
 		}
 
-# Decor = "KloseOnly" needs "KloseOnly" specified in autoproperties to do anything, 
+# Decor = "KloseOnly" needs "KloseOnly" specified in autoproperties to do anything,
 # otherwise does nothing
 # Window set to only have sticky and close buttons (no resize or minimize)
- 
+
 	Decor = "KloseOnly" {
 		Title {
 				Height 				= "19"
@@ -463,7 +464,7 @@ PDecor {
 
 			FontColor {
 				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#EBFA60"
 				Unfocused 			= "#cccccc"
 				UnfocusedSelected 	= "#cccccc"
 			}
@@ -499,8 +500,8 @@ PDecor {
 					Bottom 			= "Image 5-Border-horz1.png"
 					BottomRight 	= "Image 5-Border-bottom-right.png"
 					}
-					
-				Unfocused {				
+
+				Unfocused {
 					Top 			= "Image 5-Border-horz-unFocused2.png"
 					TopRight 		= "Image 5-Border-top-right-unFocused2.png"
 					TopLeft 		= "Image 5-Border-top-left-unFocused2.png"
@@ -530,18 +531,18 @@ PDecor {
 				Focused				= "Empty"
 				Unfocused			= "Empty"
 				}
-					
+
 			Font {
 				Focused				= "Empty"
 				}
-					
+
 			FontColor {
 				Focused				= "Empty"
 				FocusedSelected		= "Empty"
 				Unfocused 			= "Empty"
 				UnfocusedSelected	= "Empty"
-				}   
-					
+				}
+
 		Border {
 			Focused {
 				TopLeft 			= "Empty"
@@ -553,15 +554,15 @@ PDecor {
 				Bottom 				= "Empty"
 				BottomRight 		= "Empty"
 				}
-				
+
 			Unfocused {
-				TopLeft 			= "Empty"           
-				Top 				= "Empty"           
-				TopRight 			= "Empty"           
-				Left 				= "Empty"           
-				Right 				= "Empty"           
-				BottomLeft 			= "Empty"           
-				Bottom 				= "Empty"           
+				TopLeft 			= "Empty"
+				Top 				= "Empty"
+				TopRight 			= "Empty"
+				Left 				= "Empty"
+				Right 				= "Empty"
+				BottomLeft 			= "Empty"
+				Bottom 				= "Empty"
 				BottomRight 		= "Empty"
 				}
 			}
@@ -574,34 +575,34 @@ PDecor {
 				Pad 				= "0 0 0 0"
 				Focused 			= "Empty"
 				Unfocused 			= "Empty"
-	
+
 			Tab {
 				Focused 			= "Empty"
 				FocusedSelected 	= "Empty"
 				Unfocused 			= "Empty"
 				UnfocusedSelected 	= "Empty"
 				}
-			
+
 			Separator {
 				Focused 			= "Empty"
 				Unfocused 			= "Empty"
 				}
-			
+
 			Font {
 				Focused 			= "Empty"
 				}
-			
+
 			FontColor {
 				Focused 			= "Empty"
 				FocusedSelected 	= "Empty"
 				Unfocused 			= "Empty"
 				UnfocusedSelected 	= "Empty"
 				}
-			
+
 		Buttons {
 				}
-			
-		Border {  
+
+		Border {
 			Focused {
 				TopLeft 			= "Empty"
 				Top 				= "Empty"
@@ -612,7 +613,7 @@ PDecor {
 				Bottom 				= "Empty"
 				BottomRight 		= "Empty"
 				}
-			
+
 			Unfocused {
 				TopLeft 			= "Empty"
 				Top 				= "Empty"
@@ -631,18 +632,18 @@ PDecor {
 Harbour {
 		Texture = "Solid #0a0a0a"
 }
-	
+
 Menu {
 		Pad 						= "0 2 7 3"
 			Focused {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #0d0d0d"
 				Item 				= "arrow-focus"
-				Text 				= "#8bd0fa" 
+				Text 				= "#8bd0fa"
 				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 0-Menu-Focused-arrow.png"
 				}
-	
+
 			Unfocused {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #0d0d0d"
@@ -652,12 +653,12 @@ Menu {
 				Arrow 				= "Image 0-Menu-Unfocused-arrow.png"
 				#Arrow 				= "Image 0-Menu-Focused-arrow.png"
 				}
-	
+
 			Selected {
 				Font 				= "$font_bigger2"
 				Background 			= "Solid #0d0d0d"
-				Item 				= "arrow-sel"   
-				Text 				= "#FFFFFF"       
+				Item 				= "arrow-sel"
+				Text 				= "#FFFFFF"
 				Arrow 				= "Image 0-Menu-Selected-arrow-white.png"
 				}
 }
@@ -671,7 +672,7 @@ CmdDialog {
 
 Status {
 				Font 				= "$font"
-				Texture 			= "Solid #171717"  
+				Texture 			= "Solid #171717"
 				Text 				= "#a0a0a0"
 				Pad 				= "2 2 10 10"
 }

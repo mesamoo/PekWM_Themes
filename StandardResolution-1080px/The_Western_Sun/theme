@@ -47,7 +47,8 @@ PDecor {
 
 			FontColor {
 				Focused 			= "#82C1E9"
-				FocusedSelected 	= "#ffffff"
+				#FocusedSelected 	= "#ffffff"
+				FocusedSelected 	= "#ffff7f"
 				Unfocused 			= "#82C1E9"
 				UnfocusedSelected 	= "#82C1E9"
 				}
