@@ -12,11 +12,19 @@
 #	$FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 #	$FONT_TITLE2 						= "XFT#Oxygen:size=15:weight=bold#Center"
 
-$font 								= "XFT#fira sans light:size=14"
-$font_bigger 						= "XFT#fira sans Light:size=16"
-$font_bigger2 						= "XFT#fira sans ExtraLight:size=14:weight=bold"
-$FONT_TITLE 						= "XFT#fira sans ExtraLlight:size=14:weight=bold#Center"
-$FONT_TITLE2						= "XFT#fira sans light:size=14:weight=bold#Center"
+# WesternSky original font - thin pretty, but due to design a bit slower for reading than Arimo
+#$font 								= "XFT#fira sans light:size=14"
+#$font_bigger 						= "XFT#fira sans Light:size=16"
+#$font_bigger2 						= "XFT#fira sans ExtraLight:size=14:weight=bold"
+#$FONT_TITLE 						= "XFT#fira sans ExtraLlight:size=14:weight=bold#Center"
+#$FONT_TITLE2						= "XFT#fira sans light:size=14:weight=bold#Center"
+
+# Font from verdant land, larger clearer menus (Arimo)
+$font 								= "arimo-16#XFT"
+$font_bigger 						= "arimo-16#XFT"
+$font_bigger2 						= "arimo-18#XFT"
+$FONT_TITLE 						= "XFT#arimo:size=17#Center"
+$FONT_TITLE2 						= "XFT#droid sans:size=18#Center"
 
 PDecor {
 	Decor = "Default" {
@@ -121,7 +129,7 @@ PDecor {
 
 		Title {
 					Height 			= "0"
-					Pad 			= "0 0 0 0"
+					Pad 			= "0 0 3 3"
 
 			Font {
 					Focused			= "$font_bigger"
@@ -656,7 +664,7 @@ Menu {
 				}
 	
 			Selected {
-				Font 				= "$font_bigger2"
+				Font 				= "$font_bigger"
 				Background 			= "Solid #0d0d0d"
 				Item 				= "arrow-sel"   
 				Text 				= "#FFFFFF"       
