@@ -127,7 +127,7 @@ PDecor {
 
 		Title {
 					Height 			= "0"
-					Pad 			= "0 0 28 28"
+					Pad 			= "0 0 0 0"
 
 			Font {
 					Focused			= "$font_bigger"
@@ -686,7 +686,7 @@ Status {
 
 WorkspaceIndicator {
 				Font 				= "$font"
-				Background 			= "Image back.png"
+				#Background 			= "Image back.png"
 				Workspace 			= "Image workspace.png"
 				WorkspaceActive 	= "Image workspace-sel.png"
 				Text 				= "#d0d0d0"
