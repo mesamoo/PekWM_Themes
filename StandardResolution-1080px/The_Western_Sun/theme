@@ -643,7 +643,7 @@ Harbour {
 }
 	
 Menu {
-		Pad 						= "0 2 7 3"
+		Pad 						= "0 1 5 3"
 			Focused {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #0d0d0d"
