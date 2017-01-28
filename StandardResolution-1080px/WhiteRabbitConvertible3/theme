@@ -3,9 +3,6 @@
 #rainbow originally from axon kolors
 # use a monospace font for proper viewing of theme file
 
-##	$font 								= "arimo-16#XFT"
-##	$font_bigger 						= "arimo-16#XFT"
-##	$font_bigger2 						= "arimo-18#XFT"
 ##	$FONT_TITLE 						= "XFT#Oxygen:size=16:weight=bold#Center"
 ##	$FONT_TITLE 						= "XFT#arimo:size=15#Center"
 ##	$FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
@@ -15,15 +12,10 @@
 $font 								= "XFT#fira sans light:size=14"
 $font_bigger 						= "XFT#fira sans Light:size=16"
 $font_bigger2 						= "XFT#fira sans ExtraLight:size=16:weight=bold"
-#$FONT_TITLE 						= "XFT#fira sans ExtraLlight:size=14:weight=bold#Center"
-#$FONT_TITLE2						= "XFT#fira sans light:size=14:weight=bold#Center"
 
 # Font from verdant land, larger clearer menus (Arimo)
-#$font 								= "arimo-16#XFT"
-#$font_bigger 						= "arimo-16#XFT"
-#$font_bigger2 						= "arimo-18#XFT"
-$FONT_TITLE 						= "XFT#arimo:size=17#Center"
-$FONT_TITLE2 						= "XFT#droid sans:size=18#Center"
+$FONT_TITLE 						= "XFT#arimo:size=15#Center"
+$FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 
 PDecor {
 	Decor = "Default" {
@@ -35,14 +27,14 @@ PDecor {
 
 			Tab {
 				Focused 			= "Image 0-Title-default.png"
-				FocusedSelected 	= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {
-				Focused 			= "Image 0-tab-separator-FocusedALT.png"
-				Unfocused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT.png"
+				Focused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT1a.png"
+				UnFocused 			= "Image 0-tab-separator-FocusedALT1a.png"
 				}
 
 			Font {
@@ -136,7 +128,8 @@ PDecor {
 			Border {
 				Focused {
 					TopLeft 		= "Image 3-Menu-default-top-left-Focus2.png"
-					Top 			= "Image 0-Menu-default-top-thickRainbow-Focus3.png#scaled"
+					#Top 			= "Image 0-Menu-default-top-thickRainbow-Focus3.png#scaled"
+					Top 			= "Image 1-Menu-default-top-thinRainbow2.png#scaled"
 					TopRight 		= "Image 3-Menu-default-top-right-Focus2.png"
 					Left 			= "Image 3-Menu-default-left-Focus.png"
 					Right 			= "Image 3-Menu-default-right-Focus.png"
@@ -173,16 +166,22 @@ PDecor {
 				Focused 			= "Image 0-Title-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 
+#			Tab {
+#					Focused 		= "Image 0-Title-default.png"
+#					FocusedSelected = "Image 0-Title-default.png"
+#					Unfocused 		= "Image 0-Title-default.png"
+#					UnfocusedSelected = "Image 0-Title-default.png"
+#					}
 			Tab {
-					Focused 		= "Image 0-Title-default.png"
-					FocusedSelected = "Image 0-Title-default.png"
-					Unfocused 		= "Image 0-Title-default.png"
-					UnfocusedSelected = "Image 0-Title-default.png"
-					}
+				Focused 			= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
+				Unfocused 			= "Image 0-Title-default.png"
+				UnfocusedSelected 	= "Image 0-Title-default.png"
+				}
 
 			Separator {
-					Focused 		= "Image 0-tab-separator-FocusedALT.png"
-					Unfocused 		= "Image 0-West.Sky-tab-separator-UnFocusedALT.png"
+					Focused 		= "Image 0-West.Sky-tab-separator-UnFocusedALT1a.png"
+					Unfocused 		= "Image 0-tab-separator-FocusedALT1a.png"
 					}
 
 			Font {
@@ -193,10 +192,11 @@ PDecor {
 					}
 
 			FontColor {
-					Focused 		= "#cccccc"
-					FocusedSelected = "#EBFA60"                             
-					Unfocused 		= "#cccccc"
-					UnfocusedSelected = "#cccccc"
+					Focused 		= "#82C1E9"
+					#FocusedSelected = "#EBFA60"                             
+					FocusedSelected 	= "#ffffff"
+					Unfocused 		= "#82C1E9"
+					UnfocusedSelected = "#82C1E9"
 					}
 
 			Buttons {
@@ -275,16 +275,22 @@ PDecor {
 				Focused 			= "Image 0-Title-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 
+#			Tab {
+#				Focused 			= "Image 0-Title-default.png"
+#				FocusedSelected 	= "Image 0-Title-default.png"
+#				Unfocused 			= "Image 0-Title-default.png"
+#				UnfocusedSelected 	= "Image 0-Title-default.png"
+#				}	
 			Tab {
 				Focused 			= "Image 0-Title-default.png"
-				FocusedSelected 	= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {
-				Focused 			= "Image 0-tab-separator-FocusedALT.png"
-				Unfocused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT.png"
+				Focused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT1a.png"
+				UnFocused 			= "Image 0-tab-separator-FocusedALT1a.png"
 				}
 
 			Font {
@@ -295,10 +301,11 @@ PDecor {
 				}
 
 			FontColor {
-				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
-				Unfocused 			= "#cccccc"
-				UnfocusedSelected 	= "#cccccc"
+				Focused 			= "#82C1E9"
+				#FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#ffffff"
+				Unfocused 			= "#82C1E9"
+				UnfocusedSelected 	= "#82C1E9"
 				}
 
 		Buttons {
@@ -367,16 +374,22 @@ PDecor {
 				Focused 			= "Image 0-Title-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 
+#			Tab {
+#				Focused 			= "Image 0-Title-default.png"
+#				FocusedSelected 	= "Image 0-Title-default.png"
+#				Unfocused 			= "Image 0-Title-default.png"
+#				UnfocusedSelected 	= "Image 0-Title-default.png"
+#				}
 			Tab {
 				Focused 			= "Image 0-Title-default.png"
-				FocusedSelected 	= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {
-				Focused 			= "Image 0-tab-separator-FocusedALT.png"
-				Unfocused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT.png"
+				Focused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT1a.png"
+				UnFocused 			= "Image 0-tab-separator-FocusedALT1a.png"
 				}
 
 			Font {
@@ -387,10 +400,11 @@ PDecor {
 				}
 
 			FontColor {
-				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
-				Unfocused 			= "#cccccc"
-				UnfocusedSelected 	= "#cccccc"
+				Focused 			= "#82C1E9"
+				#FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#ffffff"
+				Unfocused 			= "#82C1E9"
+				UnfocusedSelected 	= "#82C1E9"
 			}
 
 		Buttons {
@@ -450,16 +464,22 @@ PDecor {
 				Focused 			= "Image 0-Title-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 
+#			Tab {
+#				Focused 			= "Image 0-Title-default.png"
+#				FocusedSelected 	= "Image 0-Title-default.png"
+#				Unfocused 			= "Image 0-Title-default.png"
+#				UnfocusedSelected 	= "Image 0-Title-default.png"
+#				}	
 			Tab {
 				Focused 			= "Image 0-Title-default.png"
-				FocusedSelected 	= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
 				Unfocused 			= "Image 0-Title-default.png"
 				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {
-				Focused 			= "Image 0-tab-separator-FocusedALT.png"
-				Unfocused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT.png"
+				Focused 			= "Image 0-West.Sky-tab-separator-UnFocusedALT1a.png"
+				UnFocused 			= "Image 0-tab-separator-FocusedALT1a.png"
 				}
 
 			Font {
@@ -470,10 +490,11 @@ PDecor {
 				}
 
 			FontColor {
-				Focused 			= "#cccccc"
-				FocusedSelected 	= "#EBFA60"                             
-				Unfocused 			= "#cccccc"
-				UnfocusedSelected 	= "#cccccc"
+				Focused 			= "#82C1E9"
+				#FocusedSelected 	= "#EBFA60"                             
+				FocusedSelected 	= "#ffffff"
+				Unfocused 			= "#82C1E9"
+				UnfocusedSelected 	= "#82C1E9"
 			}
 
 		Buttons {
@@ -527,11 +548,17 @@ PDecor {
 				Focused 			= "Empty"
 				Unfocused 			= "Empty"
 
+#			Tab {
+#				Focused				= "Empty"
+#				FocusedSelected		= "Empty"
+#				Unfocused 			= "Empty"
+#				UnfocusedSelected 	= "Empty"
+#				}
 			Tab {
-				Focused				= "Empty"
-				FocusedSelected		= "Empty"
-				Unfocused 			= "Empty"
-				UnfocusedSelected 	= "Empty"
+				Focused 			= "Image 0-Title-default.png"
+				FocusedSelected 	= "Image 0-Tab-default.png"
+				Unfocused 			= "Image 0-Title-default.png"
+				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {

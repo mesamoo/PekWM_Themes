@@ -637,7 +637,7 @@ Menu {
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
 				Text 				= "#dddddd" 
-				#Separator 			= "Image 0-Menu-separator-default.png"
+				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 1-Menu-Focused-arrow.png"
 				}
 	
@@ -646,7 +646,7 @@ Menu {
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
 				Text 				= "#bbbbbb"
-				#Separator 			= "Image 0-Menu-separator-default.png"
+				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 0-Menu-Unfocused-arrow.png"
 				}
 	
