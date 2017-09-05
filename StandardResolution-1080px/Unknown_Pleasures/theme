@@ -3,15 +3,18 @@
 # use a monospace font for proper viewing
 
 # my teal font color 				#16D4EC
-# my new blue (teal replacement)	#0983CF
+# my new blue (teal replacement)	        #0983CF
 # my yello font color 				#95AF9E
 
-$font 								= "arimo-16#XFT"
+$font 							= "arimo-16#XFT"
 #$font_bigger 						= "droid sans-18#XFT"
-$font_bigger 						= "arimo-16#XFT"
-$font_bigger2 						= "arimo-17#XFT"
-$FONT_TITLE 						= "XFT#Oxygen:size=14:weight=bold#Center"
-# unused $FONT_TITLE2 						= "XFT#droid sans:size=18#Center"
+#$font_bigger 						= "arimo-16#XFT"
+$font_bigger                                            = "XFT#droid sans:size=16"
+#$font_bigger2 						= "arimo-17#XFT"
+$font_bigger2                                           = "XFT#droid sans:size=16"
+#$FONT_TITLE 						= "XFT#Oxygen:size=14:weight=bold#Center"
+$FONT_TITLE                                             = "XFT#droid sans:size=14#Center"
+$FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 
 PDecor {
 	Decor = "Default" {
@@ -41,9 +44,9 @@ PDecor {
 				}
 
 			FontColor {
-				Focused 			= "#16D4EC"
+				Focused 		= "#16D4EC"
 				FocusedSelected 	= "#E1E1E1"                             
-				Unfocused 			= "#16D4EC"
+				Unfocused 		= "#16D4EC"
 				UnfocusedSelected 	= "#16D4EC"
 				}
 
@@ -174,18 +177,20 @@ PDecor {
 					}
 
 			Font {
-					Focused         = "$FONT_TITLE"
-					FocusedSelected = "$FONT_TITLE2"
-					Unfocused       = "$FONT_TITLE"
-					UnfocusedSelected = "$FONT_TITLE"
+					Focused                 = "$FONT_TITLE"
+					FocusedSelected         = "$FONT_TITLE2"
+					Unfocused               = "$FONT_TITLE"
+					UnfocusedSelected       = "$FONT_TITLE"
 					}
 
 			FontColor {
 #					Focused 		= "#95AF9E"
 					Focused 		= "#cccccc"
-					FocusedSelected = "#EBFA60"                             
-					Unfocused 		= "#cccccc"
-					UnfocusedSelected = "#cccccc"
+					FocusedSelected = "#E1E1E1"                             
+#					Unfocused 		= "#cccccc"
+					Unfocused               = "#16D4EC"
+#					UnfocusedSelected = "#cccccc"
+                                        UnfocusedSelected       = "#16D4EC"					
 					}
 
 			Buttons {
