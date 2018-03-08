@@ -7,8 +7,12 @@
 # my yello font color 				#95AF9E
 
 $font 							= "arimo-16#XFT"
+#$font_bigger 						= "droid sans-18#XFT"
+#$font_bigger 						= "arimo-16#XFT"
 $font_bigger                                            = "XFT#droid sans:size=16"
+#$font_bigger2 						= "arimo-17#XFT"
 $font_bigger2                                           = "XFT#droid sans:size=16"
+#$FONT_TITLE 						= "XFT#Oxygen:size=14:weight=bold#Center"
 $FONT_TITLE                                             = "XFT#droid sans:size=14#Center"
 $FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 
@@ -48,8 +52,8 @@ PDecor {
 
 			Buttons {
 				Right {
-					Focused 		= "Image 0-Button-far-right-Focused.png"
-					Unfocused 		= "Image 0-Button-far-right-Unfocused.png"
+					Focused 		= "Image 0-Button-default.png"
+					Unfocused 		= "Image 0-Button-default.png"
 					Hoover 			= "Image 1-Button-close-Hoover-Red.png"
 					Pressed 		= "Image 1-Button-close-Pressed-Red.png"
 					Button 			= "1" { Actions = "Close" }
@@ -66,8 +70,10 @@ PDecor {
 					}
 
 				Right {
-					Focused 		= "Image 0-Button-default.png"
-					Unfocused 		= "Image 0-Button-default.png"
+					#Focused 		= "Image 0-Button-sticky-Invisible.png"
+					#Unfocused 		= "Image 0-Button-sticky-Invisible.png"
+                                        Focused                 = "Image 0-Button-default.png"
+                                        Unfocused               = "Image 0-Button-default.png"
 					Hoover 			= "Image 1-Button-min-Hoover-green.png"
 					Pressed 		= "Image 1-Button-min-Pressed-green.png"
 					Button 			= "1" { Actions = "Set Iconified" }
@@ -199,16 +205,16 @@ PDecor {
 
 			Buttons {
 				Right {
-					Focused 		= "Image 0-Button-far-right-Focused.png"
-					Unfocused 		= "Image 0-Button-far-right-Unfocused.png"
+					Focused 		= "Image 0-Button-sticky-Invisible.png"
+					Unfocused 		= "Image 0-Button-sticky-Invisible.png"
 					Hoover 			= "Image 1-Button-min-Hoover-green.png"
 					Pressed 		= "Image 1-Button-min-Pressed-green.png"
 					Button 			= "1" { Actions = "Set Iconified" }
 					}
 
 			Right {
-					Focused 		= "Image 0-Button-default.png"
-					Unfocused 		= "Image 0-Button-default.png"
+					Focused 		= "Image 0-Button-sticky-Invisible.png"
+					Unfocused 		= "Image 0-Button-sticky-Invisible.png"
 					Hoover 			= "Image 1-Button-max-Hoover-teal.png"
 					Pressed 		= "Image 1-Button-max-Pressed-teal.png"
 					Button 			= "1" { Actions = "Toggle Maximized 1 1" }
@@ -216,8 +222,10 @@ PDecor {
 					}
 
 			Right {
-					Focused 		= "Image 0-Button-default.png"
-					Unfocused 		= "Image 0-Button-default.png"
+					#Focused 		= "Image 0-Button-sticky-Invisible.png"
+					#Unfocused 		= "Image 0-Button-sticky-Invisible.png"
+                                        Focused                 = "Image 0-Button-sticky-Invisible.png"
+                                        Unfocused               = "Image 0-Button-sticky-Invisible.png"
 					Hoover 			= "Image 1-Button-min-Hoover-green.png"
 					Pressed 		= "Image 1-Button-min-Pressed-green.png"
 					Button 			= "1" { Actions = "Set Iconified" }
@@ -301,16 +309,16 @@ PDecor {
 
 		Buttons {
 			Right {
-				Focused 			= "Image 0-Button-far-right-Focused.png"
-				Unfocused 			= "Image 0-Button-far-right-Unfocused.png"
+				Focused 			= "Image 0-Button-sticky-Invisible.png"
+				Unfocused 			= "Image 0-Button-sticky-Invisible.png"
 				Hoover 				= "Image 1-Button-min-Hoover-green.png"
 				Pressed 			= "Image 1-Button-min-Pressed-green.png"
 				Button 				= "1" { Actions = "Set Iconified" }
 				}
 
 			Right {
-				Focused 			= "Image 0-Button-default.png"
-				Unfocused 			= "Image 0-Button-default.png"
+				Focused 			= "Image 0-Button-sticky-Invisible.png"
+				Unfocused 			= "Image 0-Button-sticky-Invisible.png"
 				Hoover 				= "Image 1-Button-max-Hoover-teal.png"
 				Pressed 			= "Image 1-Button-max-Pressed-teal.png"
 				Button 				= "1" { Actions = "Toggle Maximized 1 1" }
@@ -394,8 +402,8 @@ PDecor {
 
 		Buttons {
 			Right {
-				Focused 			= "Image 0-Button-far-right-Focused.png"
-				Unfocused 			= "Image 0-Button-far-right-Unfocused.png"
+				Focused 			= "Image 0-Button-sticky-Invisible.png"
+				Unfocused 			= "Image 0-Button-sticky-Invisible.png"
 				Hoover 				= "Image 1-Button-min-Hoover-green.png"
 				Pressed 			= "Image 1-Button-min-Pressed-green.png"
 				Button 				= "1" { Actions = "Set Iconified" }
@@ -477,8 +485,8 @@ PDecor {
 
 		Buttons {
 			Right {
-				Focused 			= "Image 0-Button-far-right-Focused.png"
-				Unfocused 			= "Image 0-Button-far-right-Unfocused.png"
+				Focused 			= "Image 0-Button-sticky-Invisible.png"
+				Unfocused 			= "Image 0-Button-sticky-Invisible.png"
 				Hoover 				= "Image 1-Button-close-Hoover-Red.png"
 				Pressed 			= "Image 1-Button-close-Pressed-Red.png"
 				Button 				= "1" { Actions = "Close" }
@@ -645,24 +653,25 @@ Menu {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
-				Text                            = "#90D5E2"
+				Text 				= "#dddddd" 
 				Separator 			= "Image 0-Menu-separator-default.png"
-				Arrow 				= "Image 1-Menu-Focused-arrow-teal.png"
+				Arrow 				= "Image 1-Menu-Focused-arrow.png"
 				}
 	
 			Unfocused {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
-                                Text                            = "#90D5E2"
+				Text 				= "#bbbbbb"
 				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 0-Menu-Unfocused-arrow.png"
 				}
 	
 			Selected {
-				Font 				= "$font_bigger"
+				Font 				= "$font_bigger2"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-sel"
+#				Text 				= "#F8FD77"
 				Text 				= "#FFFFFF"
 				Arrow 				= "Image 1-Menu-Selected-arrow.png"
 				}

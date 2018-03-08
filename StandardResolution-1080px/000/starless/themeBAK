@@ -7,8 +7,12 @@
 # my yello font color 				#95AF9E
 
 $font 							= "arimo-16#XFT"
+#$font_bigger 						= "droid sans-18#XFT"
+#$font_bigger 						= "arimo-16#XFT"
 $font_bigger                                            = "XFT#droid sans:size=16"
+#$font_bigger2 						= "arimo-17#XFT"
 $font_bigger2                                           = "XFT#droid sans:size=16"
+#$FONT_TITLE 						= "XFT#Oxygen:size=14:weight=bold#Center"
 $FONT_TITLE                                             = "XFT#droid sans:size=14#Center"
 $FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 
@@ -645,6 +649,8 @@ Menu {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
+#				Text 				= "#dddddd"
+				#Text                            = "#f42419"
 				Text                            = "#90D5E2"
 				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 1-Menu-Focused-arrow-teal.png"
@@ -654,15 +660,18 @@ Menu {
 				Font 				= "$font_bigger"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-focus"
-                                Text                            = "#90D5E2"
+#				Text 				= "#bbbbbb"
+#				Text                            = "#f42419"
+				Text                            = "#90D5E2"
 				Separator 			= "Image 0-Menu-separator-default.png"
 				Arrow 				= "Image 0-Menu-Unfocused-arrow.png"
 				}
 	
 			Selected {
-				Font 				= "$font_bigger"
+				Font 				= "$font_bigger2"
 				Background 			= "Solid #171717"
 				Item 				= "arrow-sel"
+#				Text 				= "#F8FD77"
 				Text 				= "#FFFFFF"
 				Arrow 				= "Image 1-Menu-Selected-arrow.png"
 				}
