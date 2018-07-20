@@ -15,28 +15,28 @@ $FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 PDecor {
 	Decor = "Default" {
 		Title {
-				Height 				= "26"
-				Pad 				= "3 1 1 1"
-				Focused 			= "Image 0-Title-default.png"
-				Unfocused 			= "Image 0-Title-default.png"
+				Height 			= "26"
+				Pad 			= "3 1 1 1"
+				Focused 		= "Image 0-Title-default.png"
+				Unfocused 		= "Image 0-Title-default.png"
 
 			Tab {
-				Focused 			= "Image 0-Title-default.png"
+				Focused 		= "Image 0-Title-default.png"
 				FocusedSelected 	= "Image 0-Title-default.png"
-				Unfocused 			= "Image 0-Title-default.png"
+				Unfocused 		= "Image 0-Title-default.png"
 				UnfocusedSelected 	= "Image 0-Title-default.png"
 				}
 
 			Separator {
-				Focused 			= "Image 0-Unk.Pleasures-tab-separator-Focused.png"
-				Unfocused 			= "Image 0-Unk.Pleasures-tab-separator-UnFocused.png"
+				Focused 		= "Image 0-Unk.Pleasures-tab-separator-Focused.png"
+				Unfocused 		= "Image 0-Unk.Pleasures-tab-separator-UnFocused.png"
 				}
 
 			Font {
-				Focused             = "$FONT_TITLE"
-#				FocusedSelected     = "$FONT_TITLE2"
-#				Unfocused           = "$FONT_TITLE"
-#				UnfocusedSelected   = "$FONT_TITLE"
+				Focused                 = "$FONT_TITLE"
+#				FocusedSelected         = "$FONT_TITLE2"
+#				Unfocused               = "$FONT_TITLE"
+#				UnfocusedSelected       = "$FONT_TITLE"
 				}
 
 			FontColor {
@@ -100,7 +100,7 @@ PDecor {
 					Right 			= "Image 0-Border-Focused-right.png"
 					BottomLeft 		= "Image 0-Border-Focused-bottom-left.png"
 					Bottom 			= "Image 0-Border-Focused-bottom.png"
-					BottomRight 	= "Image 0-Border-Focused-bottom-right.png"
+					BottomRight 	        = "Image 0-Border-Focused-bottom-right.png"
 					}
 
 				Unfocused {
@@ -109,9 +109,9 @@ PDecor {
 					TopRight 		= "Image 0-Border-Unfocused-top-right.png"
 					Left 			= "Image 0-Border-Unfocused-left.png"
 					Right 			= "Image 0-Border-Unfocused-right.png"
-					BottomLeft 		= "Image 0-Border-Unfocused-bottom-leftgrey.png"
+					BottomLeft 		= "Image 0-Border-Unfocused-bottom-left2.png"
 					Bottom 			= "Image 0-Border-Unfocused-bottom-blu.png"
-					BottomRight 	= "Image 0-Border-Unfocused-bottom-right2.png"
+					BottomRight 	        = "Image 0-Border-Unfocused-bottom-right2.png"
 					}
 				}
 			}
@@ -147,7 +147,7 @@ PDecor {
 					Right 			= "Image 0-Menu-default-right.png"
 					BottomLeft 		= "Image 0-Menu-default-bottom-left.png"
 					Bottom 			= "Image 0-Menu-default-bottom.png"
-					BottomRight 	= "Image 0-Menu-default-bottom-right.png"
+					BottomRight 	        = "Image 0-Menu-default-bottom-right.png"
 					}
 				}
 			}		
@@ -169,9 +169,9 @@ PDecor {
 
 			Tab {
 					Focused 		= "Image 0-Title-Focused.png"
-					FocusedSelected = "Image 0-Title-default.png"
+					FocusedSelected         = "Image 0-Title-default.png"
 					Unfocused 		= "Image 0-Title-default.png"
-					UnfocusedSelected = "Image 0-Title-default.png"
+					UnfocusedSelected       = "Image 0-Title-default.png"
 					}
 
 			Separator {

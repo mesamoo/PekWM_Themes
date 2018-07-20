@@ -8,10 +8,7 @@
 
 $font 							= "arimo-16#XFT"
 $font_bigger                                            = "XFT#droid sans:size=16"
-#$font_bigger                                            = "XFT#Oxygen:size=16"
 $font_bigger2                                           = "XFT#droid sans:size=16"
-#$font_bigger2                                            = "XFT#Oxygen:size=16"
-#$FONT_TITLE 						= "XFT#Oxygen:size=14:weight=bold#Center"
 $FONT_TITLE                                             = "XFT#droid sans:size=14#Center"
 $FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
 
@@ -132,15 +129,15 @@ PDecor {
 			
 			Border {
 				Focused {
-					TopLeft 		= "Image 0-Menu-default-top-left.png"
-					Top 			= "Image 1-Menu-default-top-thinRainbow2.png#scaled"
+					TopLeft 		= "Image 0-Menu-default-top-left1.png"
+					Top 			= "Image 1-Menu-default-top-thinRainbow2a.png#scaled"
 #					Top 			= "Image 0-Menu-default-top.png"
-					TopRight 		= "Image 0-Menu-default-top-right.png"
+					TopRight 		= "Image 0-Menu-default-top-right1.png"
 					Left 			= "Image 0-Menu-default-left.png"
 					Right 			= "Image 0-Menu-default-right.png"
 					BottomLeft 		= "Image 0-Menu-default-bottom-left.png"
 					Bottom 			= "Image 0-Menu-default-bottom.png"
-					BottomRight 	= "Image 0-Menu-default-bottom-right.png"
+					BottomRight 	        = "Image 0-Menu-default-bottom-right.png"
 					}
 				
 				Unfocused {
