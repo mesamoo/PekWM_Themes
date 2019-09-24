@@ -6,11 +6,11 @@
 # my new blue (teal replacement)	        #0983CF
 # my yello font color 				#95AF9E
 
-$font 							= "arimo-16#XFT"
-$font_bigger                                            = "XFT#droid sans:size=16"
-$font_bigger2                                           = "XFT#droid sans:size=16"
-$FONT_TITLE                                             = "XFT#droid sans:size=14#Center"
-$FONT_TITLE2 						= "XFT#droid sans:size=16#Center"
+$font 							= "arimo-12#XFT"
+$font_bigger                                            = "XFT#droid sans:size=14"
+$font_bigger2                                           = "XFT#droid sans:size=14"
+$FONT_TITLE                                             = "XFT#droid sans:size=12#Center"
+$FONT_TITLE2 						= "XFT#droid sans:size=14#Center"
 
 PDecor {
 	Decor = "Default" {

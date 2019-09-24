@@ -484,15 +484,6 @@ PDecor {
                                 Button                  = "1" { Actions = "Set Iconified" }
                                 
                                 }
-
-                        Left {
-                                Focused                 = "Image 0-Button-far-right-Focused.png"
-                                Unfocused               = "Image 0-Button-far-right-Unfocused.png"
-                                Hoover                  = "Image 1-Button-close-Hoover-Red.png"
-                                Pressed                 = "Image 1-Button-close-Pressed-Red.png"
-                                Button                  = "1" { Actions = "Close" }
-                                Button                  = "3" { Actions = "Kill" }
-                                }
                                 
                         Left {
                                 Focused                 = "Image 0-Button-sticky-Invisible.png"
@@ -501,6 +492,15 @@ PDecor {
                                 Pressed                 = "Image 1-Button-sticky-Pressed.png"
                                 Button                  = "1" { Actions = "Toggle Sticky" }
                                 Button                  = "3" { Actions = "Toggle Sticky" }
+                                }
+                                
+                        Left {
+                                Focused                 = "Image 0-Button-far-right-Focused.png"
+                                Unfocused               = "Image 0-Button-far-right-Unfocused.png"
+                                Hoover                  = "Image 1-Button-close-Hoover-Red.png"
+                                Pressed                 = "Image 1-Button-close-Pressed-Red.png"
+                                Button                  = "1" { Actions = "Close" }
+                                Button                  = "3" { Actions = "Kill" }
                                 }
                         }
                                 
